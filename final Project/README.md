@@ -1,4 +1,4 @@
-# finalProject
+# Final Project of first semester
 Multi-Dimensional Hash tables is a data structure I created with O(1) efficiency for resizing which means insert has O(1) efficiency worst case.
 which is theoretically the most efficient data Structure, but as seen in MDHTEfficiencyTester.java it is not in practice
  Once A MDHT object is created it can have data added by using the insert method,
