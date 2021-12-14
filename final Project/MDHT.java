@@ -174,7 +174,7 @@ public class MDHT{
   		}
   		printLayers(table, aL);//adds all data to aL
 
-  		for (int i = 0;i<10 ;i++) {//reformats all data
+  		for (int i = 0;i<9 ;i++) {//reformats all data
   			toReturn+=("Layer: "+ i+"\n");
   			for(int j = 0;j<aL.get(i).size();j++){
   				toReturn+=(aL.get(i).get(j)+" ");
@@ -224,7 +224,7 @@ public class MDHT{
 		int length;
 		SwitchArray[] sA;
 		Pair iValue;
-		int[] primeArray = new int[]{5,7,11,13,17,19,23,29,31,37};
+		int[] primeArray = new int[]{7,11,13,17,19,23,29,31,37};
 		boolean isExpanded = false;
 		/**creates a new Switch Array
 		 * @param iValue sets the iValue of the Switch Array
