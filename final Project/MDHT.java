@@ -169,7 +169,7 @@ public class MDHT{
   	public String printLayers(){
   		ArrayList<ArrayList<String>> aL = new ArrayList<ArrayList<String>>();
   		String toReturn= "";
-  		for (int i = 0; i <10; i++){
+  		for (int i = 0; i <9; i++){
   			aL.add(new ArrayList<String>()); // formats aL to correct size
   		}
   		printLayers(table, aL);//adds all data to aL
